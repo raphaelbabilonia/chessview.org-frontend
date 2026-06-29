@@ -17,6 +17,8 @@ export const resultLabel = (result) =>
     "1/2-1/2": "1/2",
     "bye-white": "White bye",
     "bye-black": "Black bye",
+    "half-bye": "Half-point bye",
+    "zero-bye": "Zero-point bye",
     "forfeit-white": "White forfeits",
     "forfeit-black": "Black forfeits"
   })[result] || result;
@@ -28,6 +30,8 @@ export const resultOptions = [
   "1/2-1/2",
   "bye-white",
   "bye-black",
+  "half-bye",
+  "zero-bye",
   "forfeit-white",
   "forfeit-black"
 ];
