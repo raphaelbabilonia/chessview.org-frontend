@@ -6,6 +6,16 @@ The founding idea is simple: help clubs, academies, organizers, players, and spe
 
 This repository contains only the public React frontend. The backend lives at [raphaelbabilonia/chessview.org-backend](https://github.com/raphaelbabilonia/chessview.org-backend).
 
+## Open Source And Commercial Boundaries
+
+- Source code is licensed under AGPL-3.0-only.
+- The ChessView name, ChessView.org name, logos, icons, domains, and brand identity are reserved trademarks/brand assets. See [TRADEMARKS.md](./TRADEMARKS.md).
+- Production databases, curated tournament/news data, source evidence, dedupe state, AI search indexes, analytics databases, embeddings, recommendations, uploads, and commercial datasets are not open source. See [DATA_LICENSE.md](./DATA_LICENSE.md).
+- Contributors must keep private data, third-party proprietary material, credentials, and production exports out of pull requests. See [CONTRIBUTING.md](./CONTRIBUTING.md).
+- The official hosted ChessView service may include paid hosting, support, integrations, AI search, analytics, and other commercial services built around the AGPL core.
+
+See [OPEN_SOURCE_POLICY.md](./OPEN_SOURCE_POLICY.md) for the full policy.
+
 ## Current MVP
 
 - Browse public chess events.
@@ -75,4 +85,6 @@ ChessView is a clean-room rebuild inspired by common chess tournament workflows.
 
 ## License
 
-This project is licensed under the GNU Affero General Public License v3.0. See [LICENSE](./LICENSE).
+This project source code is licensed under the GNU Affero General Public License v3.0 only. See [LICENSE](./LICENSE).
+
+The code license does not grant rights to ChessView trademarks, brand assets, production data, curated datasets, AI/analytics assets, private infrastructure, or hosted-service data. See [OPEN_SOURCE_POLICY.md](./OPEN_SOURCE_POLICY.md).
